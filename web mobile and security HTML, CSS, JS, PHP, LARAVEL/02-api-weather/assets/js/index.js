@@ -1,25 +1,25 @@
 "use strict";
 // ``
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     document.cookie = 'SameSite=None; Secure';
     // console.log("loadded");
-     
+
     function doFetch(url) {
-        
-	document.querySelector("#weather-results").innerHTML = "";
+
+        document.querySelector("#weather-results").innerHTML = "";
         const script = document.createElement("script");
-	document.querySelector("#weather-results").appendChild(script);
+        document.querySelector("#weather-results").appendChild(script);
         script.src = url;
 
 
     }
 
-    document.querySelector("#weather-button").addEventListener("click", function() {
+    document.querySelector("#weather-button").addEventListener("click", function () {
 
         const search = document.querySelector("#weatherbar").value;
 
-        const url = "https://api.openweathermap.org/data/2.5/weather?q="+search+"&appid=d48b5ed47e4e0bdc18e2b7eb45be855f&units=metric&callback=processJSON";
+        const url = "https://api.openweathermap.org/data/2.5/weather?q=" + search + "&appid=APIKEY&units=metric&callback=processJSON";
 
         doFetch(url);
     });
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-function processJSON(json){
+function processJSON(json) {
     // console.log(json);
     // console.log(json.main.temp);
     // console.log(json.main.temp_min);
