@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css" />
+
+    <style>
+        /* Styles for this page only */
+        /*  Display list items next to one another, stretching their content across the entire page
+             Make the second article take up to 5 times as much extra space as there is. Both can shrink. Specify all three flex values, be careful with what you use for flex basis */
+        main {
+            display: flex;
+        }
+
+        article {
+            flex-grow: 1;
+            flex-basis: 5rem;
+            flex-shrink: 3;
+        }
+
+        article:nth-of-type(2) {
+            flex-grow: 5;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <article class="one">
+            <h1>Column 1</h1>
+            <p>Curabitur nec lacus sollicitudin, lacinia nulla nec, consectetur purus. Cras porttitor sagittis sapien
+                non sagittis. Aenean vitae gravida elit. Sed in tellus mattis quam finibus malesuada vel eu lorem.
+                <strong>Pellentesque pretium </strong>velit ante, in elementum purus tristique a. Nunc sed velit risus.
+                Etiam consequat porta dolor sed dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia Curae;
+            </p>
+            <p>
+                Aenean urna odio, varius vel accumsan eu, tempor vitae nibh. Vivamus accumsan volutpat mauris eget
+                malesuada. Nunc egestas a risus vitae sollicitudin. Duis lectus nisl, mollis nec ante vitae,
+                <strong>porttitor fringilla</strong> tortor. Mauris porta aliquet libero, quis scelerisque nisi pharetra
+                nec. Integer faucibus a lacus ut porta. Sed tincidunt lorem in condimentum vestibulum. Duis mattis
+                tortor massa, nec ornare erat posuere id. Nulla facilisis imperdiet finibus. Nullam tempor diam non
+                rhoncus eleifend. Sed aliquet <strong>malesuada</strong> ipsum at varius. Orci varius natoque penatibus
+                et magnis dis parturient montes, nascetur ridiculus mus. Aenean laoreet neque metus. Mauris vitae diam
+                finibus, mollis ipsum in, malesuada leo.
+            </p>
+            <p>
+                Proin fringilla odio vel luctus dignissim. Praesent ac dui sit amet sapien molestie porta. Fusce eget
+                lorem ac tellus tempor vestibulum. In efficitur nibh nibh, at maximus quam venenatis a. Morbi dictum
+                ante hendrerit ultricies elementum. In luctus, lacus a fermentum hendrerit, nisl elit dignissim mauris,
+                vitae ullamcorper <strong>purus arcu laoreet</strong> velit. Aliquam ac quam ac enim pellentesque
+                hendrerit. Ut aliquet, sapien ac placerat volutpat, massa mi eleifend sapien, quis pulvinar nisi enim ac
+                magna. In vitae molestie tellus. Cras dignissim, risus quis tristique sagittis, justo sapien
+                pellentesque augue, vel condimentum ligula metus vel enim. Nam sit amet tortor eu elit lacinia dapibus.
+                Sed odio quam, accumsan a ultricies nec, ultrices sit amet diam. Morbi a ex lacus.
+            </p>
+            <p>
+                Morbi sit amet ultrices sem, vitae blandit mauris. Nunc ut blandit neque. Vivamus accumsan, leo vel
+                congue pretium, felis massa blandit metus, et ultricies enim diam et libero. Fusce dictum nunc a nibh
+                pretium, vitae luctus mi luctus. Praesent ipsum ante, hendrerit nec ex lobortis, fermentum tempor urna.
+                Proin a viverra orci. Morbi gravida quis nulla et rhoncus. Praesent non tristique sem, et scelerisque
+                dui.</p>
+        </article>
+        <article class="two">
+            <h1>Column 2</h1>
+            <p>Curabitur nec lacus sollicitudin, lacinia nulla nec, consectetur purus. Cras porttitor sagittis sapien
+                non sagittis. Aenean vitae gravida elit. Sed in tellus mattis quam finibus malesuada vel eu lorem.
+                Pellentesque pretium <strong>velit ante</strong>, in elementum purus tristique a. Nunc sed velit risus.
+                Etiam consequat porta dolor sed dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia Curae;
+            </p>
+            <p>
+                Aenean urna odio, varius vel accumsan eu, tempor vitae nibh. Vivamus accumsan volutpat mauris eget
+                malesuada. Nunc egestas a risus vitae sollicitudin. Duis lectus nisl, mollis nec ante vitae, porttitor
+                <strong>fringilla</strong> tortor. Mauris porta aliquet libero, quis scelerisque nisi pharetra nec.
+                Integer faucibus a lacus ut porta. Sed tincidunt lorem in condimentum vestibulum. Duis mattis tortor
+                massa, nec ornare erat posuere id. Nulla facilisis imperdiet finibus. Nullam tempor diam non rhoncus
+                eleifend. Sed aliquet malesuada ipsum at varius. Orci varius natoque penatibus et magnis dis
+                <strong>parturient montes</strong>, nascetur ridiculus mus. Aenean laoreet neque metus. Mauris vitae
+                diam finibus, mollis ipsum in, malesuada leo.
+            </p>
+            <p>
+                Proin fringilla odio vel luctus dignissim. Praesent ac dui sit amet sapien molestie porta. Fusce eget
+                lorem ac tellus tempor vestibulum. In efficitur nibh nibh, at maximus quam venenatis a. Morbi dictum
+                ante hendrerit ultricies elementum. In luctus, lacus a fermentum hendrerit, nisl elit dignissim mauris,
+                vitae ullamcorper purus arcu laoreet velit. Aliquam ac quam ac enim pellentesque hendrerit. Ut aliquet,
+                sapien ac placerat volutpat, massa mi eleifend sapien, quis pulvinar nisi enim ac magna. In vitae
+                molestie tellus. Cras dignissim, risus quis tristique sagittis, justo sapien pellentesque augue, vel
+                condimentum ligula metus vel enim. Nam sit amet <strong>tortor</strong> eu elit lacinia dapibus. Sed
+                odio quam, accumsan a ultricies nec, ultrices sit amet diam. Morbi a ex lacus.
+            </p>
+            <p>
+                Morbi sit amet ultrices sem, vitae blandit mauris. Nunc ut blandit neque. Vivamus accumsan, leo vel
+                congue pretium, felis massa blandit metus, et ultricies enim diam et libero. Fusce dictum nunc a nibh
+                pretium, vitae luctus mi luctus. Praesent ipsum ante, hendrerit nec ex lobortis, fermentum tempor urna.
+                Proin a viverra orci. Morbi gravida quis nulla et rhoncus. Praesent non tristique sem, et scelerisque
+                dui.</p>
+        </article>
+
+    </main>
+
+</body>
+
+</html>

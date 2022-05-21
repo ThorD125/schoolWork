@@ -1,0 +1,118 @@
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-image: url(./../media/header.jpg);
+    height: 10rem;
+    display: flex;
+}
+
+header div {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+header div :last-child {
+    margin-top: 1rem;
+}
+
+section {
+    padding: 2rem;
+}
+
+section>div {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section>div h3 {
+    background-color: green;
+    display: inline-block;
+}
+
+section>div p+p {
+    margin-top: 1rem;
+}
+
+section>div div,
+section>div img {
+    width: 31.25rem;
+}
+
+section:last-of-type {
+    background-color: grey;
+    color: #fff;
+}
+
+section:last-of-type>ul {
+    display: flex;
+    text-align: center;
+}
+
+section:last-of-type>ul ul {
+    margin-top: 1rem;
+}
+
+section:last-of-type>ul>li>ul:first-child>li:first-child {
+    background-image: url(./../media/swirl.png);
+    height: 5rem;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+footer time {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+footer p a {
+    color: green;
+    padding-left: 2rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+footer p a#facebook {
+    background-size: 0.5rem;
+    background-image: url(./../media/facebook-f.svg);
+}
+
+footer p a#twitter {
+    background-size: 0.75rem;
+    background-image: url(./../media/twitter.svg);
+}
+
+footer p a#email {
+    background-size: 0.75rem;
+    background-image: url(./../media/email.svg);
+}

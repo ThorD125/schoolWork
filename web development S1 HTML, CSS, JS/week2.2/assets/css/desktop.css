@@ -1,0 +1,189 @@
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+footer {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+}
+
+header {
+    height: 9.375rem;
+    line-height: 9.375rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.75rem;
+    background-color: #CDDE47;
+    color: #FFFFFF;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+header span {
+    color: #DE7047;
+    font-style: italic;
+}
+
+nav {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 1.75rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+}
+
+nav li {
+    border-bottom: #DE7047 dotted 0.125rem;
+    padding-left: 3rem;
+    background: url(./../../assets/media/recipes.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+}
+
+nav li:hover {
+    background: url(./../../assets/media/recipes-hover.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+}
+
+nav li:hover a {
+    color: #DE7047;
+}
+
+
+nav li:nth-child(2) {
+    background: url(./../../assets/media/seeds.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+
+}
+
+nav li:nth-child(3) {
+    background: url(./../../assets/media/contact.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+
+}
+
+nav li:hover:nth-child(2) {
+    background: url(./../../assets/media/seeds-hover.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+
+}
+
+nav li:hover:nth-child(3) {
+    background: url(./../../assets/media/contact-hover.svg);
+    background-size: 1.5rem 2rem;
+    background-repeat: no-repeat;
+
+}
+
+nav li {
+    padding-bottom: 0.75rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3.7rem;
+    color: #CDDE47;
+    text-shadow: 1px 2px 2px #6e5858
+}
+
+p {
+    line-height: 140%;
+    margin-bottom: 2rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+section {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+article:nth-of-type(1) {
+    margin-bottom: 2rem;
+    background: url(./../../assets/media/recipes.svg);
+    background-size: 6.5rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+article:nth-of-type(2) {
+    background: url(./../../assets/media/seeds.svg);
+    background-size: 6.5rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+article h3 {
+    color: #DE7047;
+    font-size: 3rem;
+}
+
+article p {
+    margin: 0.5rem 0;
+    padding-right: 7rem;
+}
+
+
+article a {
+    padding: 0.5rem;
+    background-color: #DE7047;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    border: transparent solid 0.25rem;
+    display: block;
+}
+
+article a:hover {
+    border-color: #DE7047;
+    background-color: transparent;
+    color: #DE7047;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer p:last-of-type {
+    margin-top: 2rem;
+}
+
+
+footer {
+    background: url(./../../assets/media/bg-line.gif), linear-gradient(130deg, rgba(205, 222, 71, 1) 0%, rgba(240, 36, 42, 1) 100%);
+    background-repeat: repeat-y;
+    background-position: right;
+    padding: 2rem;
+}
+
+footer h2 {
+    margin-bottom: 0.625rem;
+}
+
+footer h2,
+footer a {
+    color: #FFFFFF;
+}

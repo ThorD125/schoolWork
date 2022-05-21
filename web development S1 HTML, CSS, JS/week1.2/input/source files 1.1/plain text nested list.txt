@@ -1,0 +1,54 @@
+Applied Computer Sciences 
+
+First Bachelor year
+
+Semester 1
+Databases
+Problem Solving
+Programming Fundamentals
+Web Development
+Cyber Security Fundamentals
+E-business
+Hardware and Desktop Operating Systems
+
+Semester 2
+Computer Networks
+Application Prototyping
+Web, Mobile and Security
+Object Oriented Programming
+Project Communication
+Programming Project
+
+Second Bachelor year
+
+Semester 3
+Information Systems
+Object Oriented Architectures and Secure Development
+Statistics and Decision Making
+Analysis and Development Project
+Operating Systems Concepts
+Web Technology
+
+Semester 4
+Data Privacy and IT Law
+International Project
+Windows and Linux Server
+Big Data and Business Intelligence
+.NET Technology
+Web and Mobile Technology
+
+Third Bachelor year
+
+Semester 5 
+IT Governance
+Datacenter Technology
+Windows and Linux Server Advanced
+Content Management Systems
+Trending Topics in Software Development
+Cloud and Internet of Things
+Software Engineering Project
+
+Semester 6 
+Internship
+Bachelor Thesis
+Professional Networking

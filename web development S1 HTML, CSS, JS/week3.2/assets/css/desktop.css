@@ -1,0 +1,146 @@
+body {
+    line-height: 140%;
+    color: #141823;
+    background-color: #e9eaed;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #3b5998;
+    padding-left: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.625rem;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header,
+a {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+article {
+    border-bottom: 0.1rem solid #dfe0e4;
+    background-color: #fff;
+}
+
+header,
+aside {
+    margin-bottom: 0.625rem;
+}
+
+article h2+p {
+    margin-bottom: 0.312rem;
+    color: #9197a3;
+    font-size: 0.8rem;
+}
+
+article h3 {
+    color: #141823;
+    font-weight: 600;
+    margin: 0.8rem 0;
+}
+
+article ul {
+    list-style-type: disc;
+}
+
+article h2 {
+    color: #3b5998;
+}
+
+article h2,
+article h3 {
+    font-size: 1.2rem;
+}
+
+aside ul li,
+article ul li {
+    display: inline;
+}
+
+article,
+aside {
+    width: 27.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+}
+
+p a,
+strong,
+article h2,
+article p {
+    font-weight: 700;
+}
+
+ul:not(:last-of-type) {
+    margin-bottom: 0.625rem;
+}
+
+aside {
+    background-color: #f6f7f8;
+}
+
+
+aside p {
+    font-size: 1.1rem;
+}
+
+aside ul {
+    font-size: 0.9rem;
+}
+
+
+aside ul li:last-of-type,
+aside p:first-of-type {
+    background: url(./../../assets/media/like.svg);
+    padding-left: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+aside ul li:last-of-type {
+    margin-left: 1rem;
+}
+
+aside p:first-of-type {
+    padding-left: 2rem;
+}
+
+article ul li:not(:first-of-type),
+aside ul li:not(:first-of-type, :last-of-type) {
+    margin-left: 0.9rem;
+    padding-left: 1rem;
+    background: url(./../../assets/media/dot.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+
+aside>a {
+    background: url(./../../assets/media/comment.svg);
+    padding-left: 1.5rem;
+    background-repeat: no-repeat;
+}
+
+aside>a+p {
+    margin-top: 1.5rem;
+}
+
+aside ul li:first-of-type a {
+    color: #9197a3;
+}
+
+hr {
+    border: none;
+    background-color: rgba(8, 9, 14, 0.1);
+    color: rgba(8, 9, 14, 0.1);
+    height: 1px;
+}

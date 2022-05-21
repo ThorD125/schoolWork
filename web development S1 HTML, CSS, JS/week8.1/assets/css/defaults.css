@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    background-color: rgba(8, 9, 14, 0.1);
+    color: rgba(8, 9, 14, 0.1);
+    height: 0.0625rem;
+}

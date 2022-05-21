@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css"/>
+
+    <style>
+        /* Styles for this page only */
+
+
+        ul {
+            display: flex;
+            flex-flow: wrap;
+            width: 20%
+        }
+
+        li {
+            /*flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;*/
+
+            flex: 1 1 0;
+        }
+
+
+        .one { /* can't grow, but can shrink */
+            /*flex: 0 1 0;*/ /* notice the difference when no width is set*/
+            flex: 0 1 10rem;
+        }
+
+    </style>
+
+</head>
+<body class="pastel">
+
+
+<main>
+    <ul>
+        <li class="one">Item 1 </li>
+        <li class="two">Item 2</li>
+        <li class="three">Item 3</li>
+    </ul>
+</main>
+</body>
+</html>

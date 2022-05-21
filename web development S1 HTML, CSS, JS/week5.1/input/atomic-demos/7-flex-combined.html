@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css"/>
+
+    <style>
+        /* Styles for this page only */
+
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            flex: 1 1 5rem;
+        }
+
+        .one {
+            flex: 2 20 1rem; /* we can shrink and grow together. use inspector to view flex basis*/
+        }
+
+    </style>
+
+</head>
+<body class="pastel">
+
+
+<main>
+    <ul>
+        <li class="one">Item 1</li>
+        <li class="two">Item 2</li>
+        <li class="three">Item 3</li>
+    </ul>
+</main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css" />
+
+    <style>
+        /* Styles for this page only */
+
+        /* Display list items next to one another, stretching their content across the entire page.
+        When hovering over a single item, make that item four times larger than the others
+        Fancy Nancy: if you want the transition to be "smooth" rather than an abrupt size switch, try using the following animation on the li's flex property:
+        transition: flex 0.3s ease-out;
+        Don't worry if the above doesn't work, that was just for those who want to be fancy :)
+          */
+
+
+        ul {
+            display: flex;
+        }
+        li {
+            flex-grow: 1;
+            transition: flex 0.3s ease-out;
+        }
+        li:hover{
+            flex-grow: 4;
+            transition: flex 0.3s ease-out;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <ul>
+        <li class="one">Item 1</li>
+        <li class="two">Item 2</li>
+        <li class="three">Item 3</li>
+        <li class="four">Item 4</li>
+        <li class="five">Item 5</li>
+    </ul>
+</main>
+
+</body>
+</html>

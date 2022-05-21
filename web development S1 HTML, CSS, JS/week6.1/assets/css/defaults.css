@@ -1,0 +1,20 @@
+body {
+    background-color: #fff;
+    color: #000;
+    /* TODO:vragen fien opgeschreven default op body */
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    background-color: rgba(8, 9, 14, 0.1);
+    color: rgba(8, 9, 14, 0.1);
+    height: 1px;
+}
+
+img {
+    max-width: 100%;
+}

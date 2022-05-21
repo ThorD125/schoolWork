@@ -1,0 +1,55 @@
+Applied Computer Sciences at HOWEST
+A passion for creating programmes that help people!
+The future is digital and we are already experiencing that today. Our passion is developing digital solutions that help shape the future.
+
+Websites, apps, embedded devices, … Software comes in many forms and is constantly evolving. Almost all of them are designed using the same set of basic principles. You will gradually learn this basis during the programme.
+
+You will also gain insight into the systems and technologies that make this possible.
+
+And last but not least, the human component is also covered. You learn how to work in a team, in dialogue with customers and end users.
+
+In short, a contemporary education that will prepare you for a successful career within a domain that is evolving at lightning speed.
+
+Testimonials
+Alumna Annika ten Velden
+Security consultant, NVISO
+After my Master in Criminology, I was looking for a dedicated education in IT-security and forensic investigation. The bachelor program Cyber Security Professional corresponded perfectly with my needs.
+As my background was in social sciences rather than in technical sciences, I did expect a challenge. As Howest focuses on the practical rather than the theoretical and offers extra support where necessary, I achieved my degree without a problem.
+
+Because of the profound knowledge acquired in IT-security – from pentesting to forensic analysis – I received many job offers. My work at NVISO for the last five years has focused on incident response and forensic investigations. I still have regular contact with Howest and can tell from its trainees that education continuously evolves and is adapted to the needs of the employer community.
+
+Consult the course catalogue
+
+Why study at HOWEST?
+In Applied Computer Sciences, there are four study fields to specialise in:
+
+in software- and system developement (SOFTWARE ENGINEER)
+in counteracting digital piracy (CYBER SECURITY)
+in measuring up companies' needs and meeting them with existing software solutions (ICT & Blockchain CONSULTANT)
+in leveraging the knowledge of big data (AI Business Professional)
+The 5 principal topics
+Applied Computer Sciences is comprised of 5 principal topics. Below, they are listed chronologically:
+
+ICT INFRASTRUCTURE
+INFORMATION MANAGEMENT
+SOFTWARE DEVELOPMENT
+ICT-MANAGEMENT
+WEB AND MOBIELE TECHNOLOGY
+International
+Wat to study abroad? Perhaps an international internship is more your forté? Howest values international endeavours and stimulates all students to take on adventure. In the fourth semester, you'll be introduced to a mandatory international experience, where you'll work together with students from all over the world.
+
+Terminology
+A couple of frequented terms in our degree
+
+Leho
+Platform for communication teacher to student and where you can locate course materials
+GitLab
+Hosted solution that holds our versioning system, git. Often used to hand in assignments
+SE
+Software Engineer. Abbreviation for this specialisation
+CSP
+Cyber Security Professional. Abbreviation for this specialisation
+IBC
+ICT & Blockchain Consultant. Abbreviation for this specialisation
+AI BP
+AI Business Professional. Abbreviation for this specialisation

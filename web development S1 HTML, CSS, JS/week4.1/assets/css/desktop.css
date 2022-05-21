@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "chomskyregular";
+    src: url("../fonts/chomsky-webfont.woff2") format("woff2"), url("../fonts/chomsky-webfont.woff") format("woff");
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    color: #444444
+}
+
+body a {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    color: #444444
+}
+
+header {
+    font-family: chomskyregular, Georgia, serif;
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+header span {
+    color: rgb(68, 196, 209);
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li .active {
+    background-color: rgb(68, 196, 209);
+}
+
+nav li .active {
+    color: #fff;
+}
+
+nav li:hover a {
+    background-color: rgb(68, 196, 209);
+}
+
+nav li:hover a {
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: 1px 1.5px 1px rgba(100, 100, 100, 0.2);
+}
+
+article h2+figure figcaption {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #d8d8d8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #d8d8d8;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+main h2 {
+    color: #dd2727;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+main h3 {
+    font-weight: 500;
+    font-weight: bold;
+    background: url(./../../assets/media/bullet-large.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 3rem;
+}
+
+main hr {
+    background-color: lightgray;
+}
+
+main ul li {
+    background: url(./../../assets/media/bullet.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 1rem;
+}
+
+main ul li:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.container article a:last-of-type {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container article h2 a:last-of-type {
+    font-weight: bold;
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+.container article p:first-of-type {
+    font-weight: 400;
+}
+
+.container article p strong {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article.container>p>a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+article.container>p:first-of-type {
+    font-weight: bolder;
+}
+
+article {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+article h2 {
+    margin-top: 0.5rem;
+}
+
+article h3 {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: small;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
+
+article p:first-of-type {
+    font-weight: 500;
+}
+
+article a {
+    text-transform: initial;
+}
+
+article h3 {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    color: #666666;
+}
+
+
+
+article a+h3 {
+    margin-top: 0.5rem;
+}
+
+article p+a {
+    color: rgb(68, 196, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+article+hr {
+    margin-top: 1.5rem;
+}
+
+p a {
+    color: rgb(68, 196, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p strong {
+    color: rgb(68, 196, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+img+h3 {
+    margin-top: 0.5rem;
+}
+
+hr {
+    background-color: #d8d8d8;
+    color: #d8d8d8;
+}
+
+footer figure figcaption {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    color: #666666;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+footer h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+footer figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    margin-right: 2%;
+}
+
+:not(footer)>h2+figure {
+    margin-top: 0.5rem;
+}
+
+:not(footer)>h2+figure>figcaption {
+    margin-top: 0.5rem;
+}
+
+article.container>p:not(:first-of-type) {
+    margin-top: 1rem;
+}

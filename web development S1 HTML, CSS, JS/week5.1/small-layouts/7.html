@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css" />
+
+    <style>
+        /* Styles for this page only */
+
+        /* Display list items next to one another, stretching their content across the entire page.
+        The base width for all items is 20rem, except for the first item which always takes up 50% of the available width
+        All item scale regularly, but when there is insufficient space, everything but the first item diverges.
+       In this case, everything but the first item scales up to 5 times smaller
+
+          */
+
+
+        ul {
+            display: flex;
+        }
+        li {
+            flex-basis: 20rem;
+            flex-shrink: 5;
+        }
+        li:first-of-type{
+            flex-shrink: 1;
+            flex-basis: 50%;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <ul>
+        <li class="one">Item 1</li>
+        <li class="two">Item 2</li>
+        <li class="three">Item 3</li>
+    </ul>
+</main>
+
+</body>
+</html>

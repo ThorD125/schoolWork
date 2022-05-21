@@ -1,0 +1,160 @@
+/*---------------------*/
+/*   GENERAL ELEMENTS  */
+/*---------------------*/
+body {
+    font-family: Alata, Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #606c88 0%, #3f4c6b 100%);
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    height: 100vh;
+    /*  display: flex;
+    flex-flow: column;
+    justify-content: flex-end;*/
+    /* deleted for easier debugging. re-activate if you want better layout :-) */
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(44, 51, 92, .7);
+    text-transform: lowercase;
+}
+
+a {
+    background: linear-gradient(to bottom, #ff5db1 0%, #ef017c 100%);
+    color: #FFF;
+    text-shadow: 3px 3px 2px rgba(214, 0, 100, .8);
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 0.4rem;
+    border-radius: 5px;
+    display: block;
+}
+
+/*---------------------*/
+/* CONTAINING ELEMENTS */
+/*---------------------*/
+main {
+    padding-bottom: 2rem;
+}
+
+aside {
+    background: linear-gradient(to bottom, #3f4c6b 0%, #3f4c6b 100%);
+    box-shadow: 3px 3px 2px rgba(44, 51, 92, .3);
+    display: inline-block;
+    padding: 0.5rem;
+    text-transform: lowercase;
+}
+
+aside p {
+    color: gold;
+}
+
+svg {
+    filter: drop-shadow(3px 3px 2px rgba(44, 51, 92, .7));
+}
+
+footer {
+    background: linear-gradient(to bottom, #3f4c6b 0%, #3f4c6b 100%);
+    box-shadow: 3px -3px 2px rgba(44, 51, 92, .3);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer>a,
+footer ul,
+footer .inventory {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+footer h2 {
+    width: 100%;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+    text-shadow: 3px 3px 2px rgba(44, 51, 92, .7);
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer .inventory figure {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 25%;
+    margin-right: 0.5rem;
+}
+
+footer .inventory figure svg {
+    width: 4rem;
+    margin-bottom: 0.8rem;
+}
+
+
+/*------------------------*/
+/* PAGE SPECIFIC ELEMENTS */
+/*------------------------*/
+
+/* --- configured bot --- */
+#configured-bot {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+.robotbody {
+    position: relative;
+    z-index: 1000;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.arms {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.head {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.feet {
+    width: 50%;
+    margin: -10px auto 0 auto;
+
+}
+
+.feet.feet-rocket svg {
+    width: 100%;
+}
+
+/* --- inventory --- */
+
+.inventory figure {
+    width: 300px;
+}
+
+figure.feet-rocket svg {
+    width: 40%;
+}
+
+/* Upgraded gear */
+
+.arms.arms-buff {
+    top: 130px;
+}
+
+.head.head-mohawk {
+    width: 50%;
+    margin: 0 auto;
+}

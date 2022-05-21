@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
+
+    <style>
+        /* Styles for this page only */
+
+
+        main {
+            display: flex;
+            flex-flow: row wrap;
+            width: 60%; /**/
+            /* The reason why this doesn't work without flex is important */
+            /* children that need wrapping, need a width! */
+        }
+
+
+        article {
+            /*flex: 1;*/
+            width: 30%;
+            margin: 0 1rem 1rem 0;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+<main>
+    <article class="one">
+        <h1>Column 1</h1>
+        <p>Curabitur nec lacus sollicitudin, lacinia nulla nec, consectetur purus. Cras porttitor sagittis sapien non sagittis. Aenean vitae gravida elit. Sed in tellus mattis quam finibus malesuada vel eu lorem. <strong>Pellentesque pretium </strong>velit ante, rimis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        </p>
+    </article>
+    <article class="two">
+        <h1>Column 2</h1>
+        <p>Curabitur nec lacus sollicitudin,  Aenean vitae gravida elit. Sed in tellus mattis quam finibus malesuada vel eu lorem. Pellentesque pretium <strong>velit ante</strong>, in elementum purus tristique a. Nunc sed velit risus. Etiam consequat porta dolor sed dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        </p>
+    </article>
+    <article class="three">
+        <h1>Column 3</h1>
+        <p>Curabitur nec lacus sollicitudin, lacinia nulla nec, consectetur purus. Cras porttitor sagittis sapien non sagittis. Aenean vitae gravida elit. Sed in tellus mattis quam finibus malesuada vel eu lorem. Pellentesque pretium <strong>velit</strong> ante, in elementum purus tristique a. Nunc sed velit risus. Etiam consequat porta dolor sed dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        </p>
+    </article>
+</main>
+</body>
+</html>

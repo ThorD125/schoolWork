@@ -1,0 +1,77 @@
+/* Body styles */
+/*.robotbody, .arms {
+    width: 70%;
+}*/
+
+
+/* ze magnifique robot body */
+.robotbody .st0{fill:#1E3667;}
+.robotbody .st1{fill:#1C2E5A;}
+.robotbody .st2{fill:#81D2F2;}
+.robotbody .st3{fill:#41C5EF;}
+.robotbody .st4{fill:#FFFFFF;}
+.robotbody .st5{fill:none;stroke:#FFFFFF;stroke-width:11.5987;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+.robotbody .active {fill: red;}
+
+/* Arms */
+.arms .st0{fill:#1E3667;}
+.arms .st1{fill:#1C2E5A;}
+.arms .st2{fill:#81D2F2;}
+.arms .st3{fill:#41C5EF;}
+.arms .st4{fill:#FFFFFF;}
+.arms .st5{fill:#189DB3;}
+.arms .st6{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2.8997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.arms .st7{fill:none;stroke:#FFFFFF;stroke-width:11.5987;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+/* Head */
+
+.head .st0{fill:#81D2F2;}
+.head .st1{fill:#1E3667;}
+.head .st2{fill:#FFFFFF;}
+.head .st3{fill:#231F20;}
+.head .st4{fill:#41C5EF;}
+.head .st5{fill:#1C2E5A;}
+.head .st6{fill:#189DB3;}
+
+/* Feet */
+
+.feet .st0{fill:#1E3667;}
+.feet .st1{fill:#1C2E5A;}
+.feet .st2{fill:#81D2F2;}
+.feet .st3{fill:#41C5EF;}
+.feet .st4{fill:none;stroke:#FFFFFF;stroke-width:11.5987;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.feet .st5{fill:#189DB3;}
+.feet .st6{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2.8997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.feet .st7{fill:#FFFFFF;}
+
+
+/* Add-ons */
+
+/* Feet rocket launcher */
+.feet-rocket .st0{fill:#81D2F2;}
+.feet-rocket .st1{fill:#CEE2EC;}
+.feet-rocket .st2{fill:#41C5EF;}
+.feet-rocket .st3{fill:#189DB3;}
+.feet-rocket .st4{fill:none;stroke:#FFFFFF;stroke-width:11.5987;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.feet-rocket .st5{fill:#C7DDE5;}
+
+
+/* Buff arms */
+.arms-buff .st0{fill:#81D2F2;}
+.arms-buff .st1{fill:#41C5EF;}
+.arms-buff .st2{fill:#1E3667;}
+.arms-buff .st3{fill:#1C2D59;}
+.arms-buff .st4{fill:none;stroke:#FFFFFF;stroke-width:11.5987;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.arms-buff .st5{fill:#1C2E5A;}
+
+
+/* Mohawk */
+
+.head-mohawk .st0{fill:#81D2F2;}
+.head-mohawk .st1{fill:#41C5EF;}
+.head-mohawk .st2{fill:#1E3667;}
+.head-mohawk .st3{fill:#FFFFFF;}
+.head-mohawk .st4{fill:#231F20;}
+.head-mohawk .st5{fill:#1C2E5A;}
+.head-mohawk .st6{fill:#189DB3;}

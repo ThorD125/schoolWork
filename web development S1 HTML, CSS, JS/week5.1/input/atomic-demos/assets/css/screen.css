@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "VagRounded-Thin";
+    src: url("../fonts/vagroundedstd-thin-webfont.woff") format("woff"), url("../fonts/vagroundedstd-thin-webfont.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "VagRounded-Bold";
+    src: url("../fonts/vagroundedstd-bold-webfont.woff") format("woff"), url("../fonts/vagroundedstd-bold-webfont.ttf") format("truetype")
+}
+body {
+    background-color: #F5F3F3;
+    font-family: 'VagRounded-Thin', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'VagRounded-Bold', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+    line-height: 130%;
+}
+strong {
+    font-family: 'VagRounded-Bold', Arial, Helvetica, sans-serif;
+}
+article, header, footer {
+    padding: 10px;
+}
+.one {
+    background-color: #F8B216;
+}
+
+.two, header {
+    background-color: #DF272B;
+
+    color: #FFFFFF;
+}
+
+.three, footer {
+    background-color: #485369;
+    color: #FFFFFF;
+}
+.four {
+    background-color: #5f45bb;
+    color: #FFFFFF;
+}
+
+.five {
+    background-color: #01d1b2;
+    color: #FFFFFF;
+
+}
+.pastel li{
+    color: black;
+    padding: 1rem;
+}
+.pastel .one {
+    background-color: #f1c0c0;
+}
+
+.pastel .two {
+    background-color: #c0e5f1;
+}
+
+.pastel .three {
+    background-color: #e9f1c0;
+}

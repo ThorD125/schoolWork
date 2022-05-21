@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex Layouts</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css" />
+
+    <style>
+        /* Styles for this page only */
+
+        /* Display list items next to one another, stretching their content across the entire page, but make the second item twice as large as the others */
+        ul {
+            display: flex;
+        }
+        li {
+            flex-grow: 1;
+        }
+        .two{
+            flex-grow: 2;
+        }
+    </style>
+
+</head>
+<body>
+
+<main>
+    <ul>
+        <li class="one">Item 1</li>
+        <li class="two">Item 2</li>
+        <li class="three">Item 3</li>
+    </ul>
+</main>
+
+</body>
+</html>
