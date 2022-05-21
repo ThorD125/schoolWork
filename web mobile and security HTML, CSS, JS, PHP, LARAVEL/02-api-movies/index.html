@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/defaults.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/desktop.css">
+
+    <script src="./assets/js/config.js"></script>
+
+    <script src="./assets/js/fetch_handler/fetch.js"></script>
+    <script src="./assets/js/fetch_handler/error.js"></script>
+    <script src="./assets/js/fetch_handler/valid.js"></script>
+    <script src="./assets/js/fetch_handler/search.js"></script>
+
+    <script src="./assets/js/page_initializer.js"></script>
+
+    <script src="./assets/js/tests.js"></script>
+</head>
+
+<body>
+    <h1>Movie database</h1>
+    <h2>Search for a movie by (part of) the title</h2>
+    <label for="searchbar">Search for:</label>
+    <input type="text" id="searchbar">
+    <input type="button" id="search-button" value="Search">
+    <hr>
+    <template>
+        <div class="movie">
+            <img src="">
+            <h3></h3>
+        </div>
+    </template>
+    <div id="movie-results">
+
+    </div>
+</body>
+
+</html>
