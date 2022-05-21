@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon gotta catch em all</title>
+
+    <script src="pokedex.js"></script>
+    <script src="initialiser.js"></script>
+</head>
+
+<body>
+
+    <form>
+        <header>
+            <h1>Choose your pokemon to catch!</h1>
+            <img src="images/logo.png" alt="logo">
+        </header>
+        <fieldset>
+            <h2>Apply your filter criteria</h2>
+            <label for="size">Filter by size</label>
+            <select name="size" id="size">
+                <option value="">isAny</option>
+                <option value="isSmall">isSmall</option>
+                <option value="isMedium">isMedium</option>
+                <option value="isLarge">isLarge</option>
+            </select>
+            <label for="type">Filter by type</label>
+            <select name="type" id="type">
+                <option value="null">isAny</option>
+            </select>
+            <label for="pokemon">Matching pokemon</label>
+            <select name="pokemon" id="pokemon">
+            </select>
+            <input type="submit" value="Catch">
+        </fieldset>
+    </form>
+    <section>
+        <h2>Caught pokemon</h2>
+        <div id="caught-pokemon">
+
+        </div>
+    </section>
+</body>
+
+</html>
